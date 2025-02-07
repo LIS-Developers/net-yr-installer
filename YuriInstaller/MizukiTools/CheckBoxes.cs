@@ -115,6 +115,16 @@ namespace YuriInstaller.MizukiTools
             base.Image = CheckStyles[0];
         }
 
+        public void Checks() => OnChecks();
+
+        public void Checks(bool @bool)
+        {
+            if (@bool)
+            {
+                OnChecks();
+            }
+        }
+
         protected void SetCheck(bool check)
         {
             _checked = check;
@@ -264,6 +274,7 @@ namespace YuriInstaller.MizukiTools
 
             try
             {
+                Debug.WriteLine($"运行了{RunPath}。");
                 Process.Start(RunPath);
             }
             catch (Exception ex)

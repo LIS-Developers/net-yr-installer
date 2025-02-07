@@ -92,7 +92,7 @@ namespace YuriInstaller
             {
                 SetInstallEndingPath();
                 useableEndLabels = EndingLabels.Where(i => i.CanBeRun()).ToArray();
-                schkReturnToWindows.Checked = string.IsNullOrEmpty(_GameLauncher);
+                schkReturnToWindows.Checks(string.IsNullOrEmpty(_GameLauncher));
                 CurrentProgress++;
                 FlashWindow(Handle, true);
             }
