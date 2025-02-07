@@ -183,5 +183,3 @@ Thanks to [Microsoft](https://www.microsoft.com):
 Copyright © 2024-2025 Shimada Mizuki. All Rights Reserved.
 
 [^1]: 只有安装程序、卸载器支持，卸载器不支持动态切换语言、添加语言文件。
-[^2]: 目前只有音频已经脱离WMP组件，不过已经做到通过条件编译把WMP砍掉。
-[^3]: 在不修改该功能的前提下直接使用该功能可能引发Bug（因为该功能仍在测试），而且仅支持XXXXX-XXXXX-XXXXX-XXXXX-XXXXX格式。
