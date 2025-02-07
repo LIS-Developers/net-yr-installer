@@ -2,7 +2,7 @@ echo Off && chcp 65001 && pyinstaller "InstallerPacker\setup.spec" && (if not ex
 
 @REM 小样，还想阻止我写注释，反了你了CMD
 
-如果你要去掉控制台窗口，就在 pyinstaller (-F -w) "InstallerPacker\setup.spec" 加个-F -w参数（已用括号表示）。
+如果你要去掉控制台窗口，就在 InstallerPacker\setup.spec 把console=True改成console=False。
 命令解释：
 1、切换代码页到65001（UTF-8）；
 2、利用Pyinstaller打包安装文件、引用程序集和安装程序；
