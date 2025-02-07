@@ -15,9 +15,9 @@ a = Analysis(
         # 安装程序程序集引用配置
         ('..\\YuriInstaller\\bin\\Setup.exe.config', 'temp'), 
 
-        # 安装程序依赖库（动态链接） 
-        ('..\\YuriInstaller\\bin\\x86', 'temp'), 
-        ('..\\YuriInstaller\\bin\\x64', 'temp'), 
+        # 安装程序依赖库（动态链接）
+        ('..\\YuriInstaller\\bin\\x86', 'temp\\x86'), 
+        ('..\\YuriInstaller\\bin\\x64', 'temp\\x64'), 
         ('..\\YuriInstaller\\bin\\Microsoft.Bcl.AsyncInterfaces.dll', 'temp'),
         ('..\\YuriInstaller\\bin\\Microsoft.Win32.Registry.dll', 'temp'),
 
