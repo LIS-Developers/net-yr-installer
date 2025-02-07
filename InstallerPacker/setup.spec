@@ -16,9 +16,8 @@ a = Analysis(
         ('..\\YuriInstaller\\bin\\Setup.exe.config', 'temp'), 
 
         # 安装程序依赖库（动态链接） 
-        ('..\\YuriInstaller\\bin\\7z.dll', 'temp'), 
-        ('..\\YuriInstaller\\bin\\AxInterop.WMPLib.dll', 'temp'), 
-        ('..\\YuriInstaller\\bin\\Interop.WMPLib.dll', 'temp'), 
+        ('..\\YuriInstaller\\bin\\x86', 'temp'), 
+        ('..\\YuriInstaller\\bin\\x64', 'temp'), 
         ('..\\YuriInstaller\\bin\\Microsoft.Bcl.AsyncInterfaces.dll', 'temp'),
         ('..\\YuriInstaller\\bin\\Microsoft.Win32.Registry.dll', 'temp'),
 

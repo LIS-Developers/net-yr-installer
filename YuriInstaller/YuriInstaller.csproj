@@ -345,7 +345,7 @@
     <ConfuserConfig>confuser.xml</ConfuserConfig>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>copy "x86\7z.dll" "7z.dll" &amp;&amp; rd /s/q "x86\" &amp;&amp; rd /s/q "x64\" &amp;&amp; (if not exist "setup.7z" if exist "..\setup.7z" (copy "..\setup.7z" "setup.7z")) &amp;&amp; (if not exist "setup1.7z" if exist "..\setup1.7z" (copy "..\setup1.7z" "setup1.7z"))</PostBuildEvent>
+    <PostBuildEvent>(if not exist "setup.7z" if exist "..\setup.7z" (copy "..\setup.7z" "setup.7z")) &amp;&amp; (if not exist "setup1.7z" if exist "..\setup1.7z" (copy "..\setup1.7z" "setup1.7z"))</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>copy "$(SolutionDir)Uninstaller\bin\uninst.exe" "$(ProjectDir)Resources\uninst.exe"</PreBuildEvent>
