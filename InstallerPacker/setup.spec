@@ -5,17 +5,17 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
-        # °²×°³ÌĞòÖ÷³ÌĞò
+        # å®‰è£…ç¨‹åºä¸»ç¨‹åº
         ('..\\YuriInstaller\\bin\\setup.exe', 'temp'), 
 
-        # °²×°ÎÄ¼ş£¨ÇëÈ·±£CÅÌÓĞ×ã¹»¿Õ¼ä£©
+        # å®‰è£…æ–‡ä»¶ï¼ˆè¯·ç¡®ä¿Cç›˜æœ‰è¶³å¤Ÿç©ºé—´ï¼‰
         ('..\\YuriInstaller\\setup.7z', 'temp'), 
         ('..\\YuriInstaller\\setup1.7z', 'temp'), 
 
-        # °²×°³ÌĞò³ÌĞò¼¯ÒıÓÃÅäÖÃ
+        # å®‰è£…ç¨‹åºç¨‹åºé›†å¼•ç”¨é…ç½®
         ('..\\YuriInstaller\\bin\\Setup.exe.config', 'temp'), 
 
-        # °²×°³ÌĞòÒÀÀµ¿â£¨¶¯Ì¬Á´½Ó£© 
+        # å®‰è£…ç¨‹åºä¾èµ–åº“ï¼ˆåŠ¨æ€é“¾æ¥ï¼‰ 
         ('..\\YuriInstaller\\bin\\x86', 'temp'), 
         ('..\\YuriInstaller\\bin\\x64', 'temp'), 
         ('..\\YuriInstaller\\bin\\Microsoft.Bcl.AsyncInterfaces.dll', 'temp'),
